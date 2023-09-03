@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    background-image: url(./28xp-shoes-09-superJumbo.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    padding: 5% 2%;
+
+}
+.offer{
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(162, 33, 20));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: aliceblue;
+    padding:1% 0;
+    z-index: 4;
+    align-content: center;
+}
+ul{
+    list-style-type: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 50%;
+    height: 3.5vh
+}
+li{
+    margin-right: 4%;
+}
+.Collection{
+    margin-right: 1.8% ;
+}
+.banner .info{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: aliceblue;
+    width: 56%;
+    height: auto;
+    left: 10%;
+    top: 25%;
+    padding: 1.6% 1.6%;
+}
+.info h1{
+    font-size: 4vh;
+}
+.info p{
+    font-size: 2.6vh;
+}
+.catalogue{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 35vh;
+    padding: 1.5% 4.5%;
+}
+.cardwithheading{
+
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.cardwithheading h1{
+    font-size: 3.2vh;
+}
+.cardlist{
+    position: relative;
+    display: flex;
+    gap: .5%;
+}
+.cardlist .card img{
+    height: 18vh;
+    width: 100%;
+    margin-right: 2vw;
+    border: 1px solid black;
+}
+.tag{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4) ;
+    width: 100%;
+    height: 3.5vh;
+    padding: .2vh 0;
+    bottom: .5vh;
+    color: white;
+}
+.historymain{
+    width: 100vw;
+    height: auto;
+    padding: 8% 8% 4% 8%;
+
+}
+.historycontent{
+    display: flex;
+    padding: 2%;
+    padding-bottom: 10%;
+    height: auto;
+    box-shadow: 0px 0px 10px gray;;
+}
+.historycontent .text{
+    display: block;
+    width: 40%;
+    margin-left: 0.8%;
+}
+.text p{
+    font-size: 2.7vh;
+    margin-top: 6%;
+}
+.historycontent img{
+    position: relative;
+    left: 34%;
+    height: 60%;
+    width: 25%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+}
